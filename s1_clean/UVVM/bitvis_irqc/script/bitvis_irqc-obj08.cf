@@ -1,0 +1,15 @@
+v 4
+file . "../tb/irqc_demo_tb.vhd" "4f9e2bb66d8cd0b0ffa17e1dadb780b50b71e7b0" "20241123001451.251":
+  entity irqc_demo_tb at 20( 1422) + 2 on 18;
+  architecture func of irqc_demo_tb at 41( 1805) + 2 on 19;
+file . "../src/irqc_core.vhd" "ca51b9a06039a07cf128718a94f9d87e2855d764" "20241123001451.171":
+  entity irqc_core at 20( 1409) + 0 on 14;
+  architecture rtl of irqc_core at 41( 1996) + 0 on 15;
+file . "../src/irqc_pif_pkg.vhd" "e38d01d55f2e340e73c08a7c6020cd69739c50d7" "20241123001451.151":
+  package irqc_pif_pkg at 20( 1412) + 0 on 11;
+file . "../src/irqc_pif.vhd" "b15eb1995f31ab3e5c37f8b8215a52d91416bada" "20241123001451.161":
+  entity irqc_pif at 20( 1408) + 0 on 12;
+  architecture rtl of irqc_pif at 42( 1887) + 0 on 13;
+file . "../src/irqc.vhd" "79f68c2ae1785708da8313e8c71799479dadac7a" "20241123001451.182":
+  entity irqc at 20( 1404) + 0 on 16;
+  architecture rtl of irqc at 45( 2109) + 0 on 17;

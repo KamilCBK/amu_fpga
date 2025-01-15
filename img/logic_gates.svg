@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.0"
+   width="224"
+   height="260"
+   id="svg2"
+   sodipodi:docname="logic_gates.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview69"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="2.3157747"
+     inkscape:cx="184.81936"
+     inkscape:cy="126.52353"
+     inkscape:window-width="2494"
+     inkscape:window-height="1371"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4" />
+  <g
+     transform="translate(-241.42856,-308.07648)"
+     id="layer1">
+    <path
+       d="m 275.01636,543.49359 h 16.46665 v -14.50273 l 24.05085,13.88577 -24.0381,13.97698 v -13.3441"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path5161" />
+    <path
+       d="m 254.10886,234.75238 a 4.7229962,4.7229962 0 1 1 -9.44599,0 4.7229962,4.7229962 0 1 1 9.44599,0 z"
+       transform="translate(71.734249,308.16985)"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1"
+       id="path5163" />
+    <path
+       d="M 342.63598,542.92223 H 326.71773"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path5165" />
+    <path
+       d="m 203.84311,186.52742 h 15.09033"
+       transform="translate(71.428558,308.07648)"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path5167" />
+    <path
+       d="M 275.27167,507.60348 H 290.362"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path5169" />
+    <path
+       d="m 215.71747,180.2604 c 10.3076,12.94635 0,25.64531 0,25.64531"
+       transform="translate(71.428558,308.07648)"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path5171" />
+    <path
+       d="m 221.07742,179.18841 c 30.67941,0 34.05631,13.85342 34.05631,13.85342 h 16.24478 -16.32724 c -4.39156,16.38954 -34.05631,13.77095 -34.05631,13.77095 14.18326,-13.85342 0.0825,-27.62437 0.0825,-27.62437 z"
+       transform="translate(71.428558,308.07648)"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path5173" />
+    <path
+       d="m 286.50598,446.11044 c 30.67941,0 34.05631,13.85342 34.05631,13.85342 h -0.0825 c -4.39156,16.38954 -34.05631,13.77095 -34.05631,13.77095 14.18326,-13.85342 0.0825,-27.62437 0.0825,-27.62437 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path6144" />
+    <path
+       d="m 275.87805,454.07331 h 15.09033"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path6146" />
+    <path
+       d="m 275.87805,467.07289 h 15.09033"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path6148" />
+    <path
+       d="m 254.10886,234.75238 a 4.7229962,4.7229962 0 1 1 -9.44599,0 4.7229962,4.7229962 0 1 1 9.44599,0 z"
+       transform="matrix(0.6499792,0,0,0.6499792,161.84911,307.54743)"
+       style="fill:none;stroke:#000000;stroke-width:2.80967;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1"
+       id="path6150" />
+    <path
+       d="M 343.46059,460.13158 H 327.54234"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path6152" />
+    <path
+       d="m 286.89693,404.03872 c 30.67941,0 34.05631,13.85342 34.05631,13.85342 h 16.24478 -16.32724 c -4.39156,16.38954 -34.05631,13.77095 -34.05631,13.77095 14.18326,-13.85342 0.0825,-27.62437 0.0825,-27.62437 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path6154" />
+    <path
+       d="m 276.18354,412.13441 h 15.09033"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path6156" />
+    <path
+       d="m 276.18354,425.13399 h 15.09033"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path6158" />
+    <path
+       d="m 254.10886,234.75238 a 4.7229962,4.7229962 0 1 1 -9.44599,0 4.7229962,4.7229962 0 1 1 9.44599,0 z"
+       transform="matrix(0.6499792,0,0,0.6499792,167.3879,222.52418)"
+       style="fill:none;stroke:#000000;stroke-width:2.80967;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1"
+       id="path6160" />
+    <path
+       d="M 348.99938,375.10833 H 333.08113"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path6162" />
+    <path
+       d="m 219.98902,54.008713 v 26.958591 c 46.14365,2.419361 47.2183,-29.550763 0,-26.958591 z"
+       transform="translate(71.428558,308.07648)"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path6164" />
+    <path
+       d="m 275.83792,368.48003 h 15.09033"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path6166" />
+    <path
+       d="m 275.83792,381.47961 h 15.09033"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path6168" />
+    <path
+       d="M 343.3988,332.78366 H 327.48055"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path6170" />
+    <path
+       d="m 291.82342,319.35468 v 26.95859 c 46.14365,2.41936 47.2183,-29.55076 0,-26.95859 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path6172" />
+    <path
+       d="m 275.83792,326.48003 h 15.09033"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path6174" />
+    <path
+       d="m 275.83792,339.47961 h 15.09033"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path6176" />
+    <text
+       x="363.04358"
+       y="334.29477"
+       style="font-style:normal;font-weight:normal;font-size:15.2975px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text6206"
+       xml:space="preserve"><tspan
+         x="363.04358"
+         y="334.29477"
+         id="tspan6208">And gate</tspan></text>
+    <text
+       x="361.74319"
+       y="379.89447"
+       style="font-style:normal;font-weight:normal;font-size:15.2975px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text6210"
+       xml:space="preserve"><tspan
+         x="361.74319"
+         y="379.89447"
+         id="tspan6212">Nand gate</tspan></text>
+    <text
+       x="362.36926"
+       y="422.31186"
+       style="font-style:normal;font-weight:normal;font-size:15.2975px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text6214"
+       xml:space="preserve"><tspan
+         x="362.36926"
+         y="422.31186"
+         id="tspan6216">Or gate</tspan></text>
+    <text
+       x="361.95187"
+       y="464.05014"
+       style="font-style:normal;font-weight:normal;font-size:15.2975px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text6218"
+       xml:space="preserve"><tspan
+         x="361.95187"
+         y="464.05014"
+         id="tspan6220">Nor gate</tspan></text>
+    <text
+       x="362.57794"
+       y="505.37103"
+       style="font-style:normal;font-weight:normal;font-size:15.2975px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text6222"
+       xml:space="preserve"><tspan
+         x="362.57794"
+         y="505.37103"
+         id="tspan6224">Xor gate</tspan></text>
+    <text
+       x="361.74316"
+       y="539.38776"
+       style="font-style:normal;font-weight:normal;font-size:15.2975px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text6226"
+       xml:space="preserve"><tspan
+         x="361.74316"
+         y="539.38776"
+         id="tspan6228">Inverter</tspan><tspan
+         x="361.74316"
+         y="558.5097"
+         id="tspan6232">(Not gate)</tspan></text>
+  </g>
+</svg>

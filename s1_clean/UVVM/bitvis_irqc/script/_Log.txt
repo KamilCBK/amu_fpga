@@ -1,0 +1,522 @@
+UVVM:      
+UVVM:      --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM:      ***  REPORT OF GLOBAL CTRL ***
+UVVM:      --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM:                                IGNORE    STOP_LIMIT
+UVVM:                NOTE         :  REGARD         0
+UVVM:                TB_NOTE      :  REGARD         0
+UVVM:                WARNING      :  REGARD         0
+UVVM:                TB_WARNING   :  REGARD         0
+UVVM:                MANUAL_CHECK :  REGARD         0
+UVVM:                ERROR        :  REGARD         1
+UVVM:                TB_ERROR     :  REGARD         1
+UVVM:                FAILURE      :  REGARD         1
+UVVM:                TB_FAILURE   :  REGARD         1
+UVVM:      --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM:      
+UVVM:      
+UVVM:      --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM:      ***  REPORT OF MSG ID PANEL ***
+UVVM:      --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM:                ID                             Status
+UVVM:                ------------------------       ------
+UVVM:                ID_UTIL_BURIED               : DISABLED
+UVVM:                ID_BITVIS_DEBUG              : DISABLED
+UVVM:                ID_UTIL_SETUP                : ENABLED
+UVVM:                ID_LOG_MSG_CTRL              : ENABLED
+UVVM:                ID_ALERT_CTRL                : ENABLED
+UVVM:                ID_FINISH_OR_STOP            : ENABLED
+UVVM:                ID_CLOCK_GEN                 : ENABLED
+UVVM:                ID_GEN_PULSE                 : ENABLED
+UVVM:                ID_BLOCKING                  : ENABLED
+UVVM:                ID_WATCHDOG                  : ENABLED
+UVVM:                ID_POS_ACK                   : ENABLED
+UVVM:                ID_LOG_HDR                   : ENABLED
+UVVM:                ID_LOG_HDR_LARGE             : ENABLED
+UVVM:                ID_LOG_HDR_XL                : ENABLED
+UVVM:                ID_SEQUENCER                 : ENABLED
+UVVM:                ID_SEQUENCER_SUB             : ENABLED
+UVVM:                ID_BFM                       : ENABLED
+UVVM:                ID_BFM_WAIT                  : ENABLED
+UVVM:                ID_BFM_POLL                  : ENABLED
+UVVM:                ID_BFM_POLL_SUMMARY          : ENABLED
+UVVM:                ID_CHANNEL_BFM               : ENABLED
+UVVM:                ID_TERMINATE_CMD             : ENABLED
+UVVM:                ID_SEGMENT_INITIATE          : ENABLED
+UVVM:                ID_SEGMENT_COMPLETE          : ENABLED
+UVVM:                ID_SEGMENT_HDR               : ENABLED
+UVVM:                ID_SEGMENT_DATA              : ENABLED
+UVVM:                ID_PACKET_INITIATE           : ENABLED
+UVVM:                ID_PACKET_PREAMBLE           : ENABLED
+UVVM:                ID_PACKET_COMPLETE           : ENABLED
+UVVM:                ID_PACKET_HDR                : ENABLED
+UVVM:                ID_PACKET_DATA               : ENABLED
+UVVM:                ID_PACKET_CHECKSUM           : ENABLED
+UVVM:                ID_PACKET_GAP                : ENABLED
+UVVM:                ID_PACKET_PAYLOAD            : ENABLED
+UVVM:                ID_FRAME_INITIATE            : ENABLED
+UVVM:                ID_FRAME_COMPLETE            : ENABLED
+UVVM:                ID_FRAME_HDR                 : ENABLED
+UVVM:                ID_FRAME_DATA                : ENABLED
+UVVM:                ID_COVERAGE_MAKEBIN          : DISABLED
+UVVM:                ID_COVERAGE_ADDBIN           : DISABLED
+UVVM:                ID_COVERAGE_ICOVER           : DISABLED
+UVVM:                ID_COVERAGE_CONFIG           : ENABLED
+UVVM:                ID_COVERAGE_SUMMARY          : ENABLED
+UVVM:                ID_COVERAGE_HOLES            : ENABLED
+UVVM:                ID_UVVM_SEND_CMD             : ENABLED
+UVVM:                ID_UVVM_CMD_ACK              : ENABLED
+UVVM:                ID_UVVM_CMD_RESULT           : ENABLED
+UVVM:                ID_CMD_INTERPRETER           : ENABLED
+UVVM:                ID_CMD_INTERPRETER_WAIT      : ENABLED
+UVVM:                ID_IMMEDIATE_CMD             : ENABLED
+UVVM:                ID_IMMEDIATE_CMD_WAIT        : ENABLED
+UVVM:                ID_CMD_EXECUTOR              : ENABLED
+UVVM:                ID_CMD_EXECUTOR_WAIT         : ENABLED
+UVVM:                ID_CHANNEL_EXECUTOR          : ENABLED
+UVVM:                ID_CHANNEL_EXECUTOR_WAIT     : ENABLED
+UVVM:                ID_NEW_HVVC_CMD_SEQ          : ENABLED
+UVVM:                ID_INSERTED_DELAY            : ENABLED
+UVVM:                ID_OLD_AWAIT_COMPLETION      : ENABLED
+UVVM:                ID_AWAIT_COMPLETION          : ENABLED
+UVVM:                ID_AWAIT_COMPLETION_LIST     : ENABLED
+UVVM:                ID_AWAIT_COMPLETION_WAIT     : ENABLED
+UVVM:                ID_AWAIT_COMPLETION_END      : ENABLED
+UVVM:                ID_UVVM_DATA_QUEUE           : ENABLED
+UVVM:                ID_CONSTRUCTOR               : ENABLED
+UVVM:                ID_CONSTRUCTOR_SUB           : ENABLED
+UVVM:                ID_VVC_ACTIVITY              : ENABLED
+UVVM:                ID_MONITOR                   : ENABLED
+UVVM:                ID_MONITOR_ERROR             : ENABLED
+UVVM:                ID_DATA                      : ENABLED
+UVVM:                ID_CTRL                      : ENABLED
+UVVM:                ID_FILE_OPEN_CLOSE           : ENABLED
+UVVM:                ID_FILE_PARSER               : ENABLED
+UVVM:                ID_SPEC_COV                  : ENABLED
+UVVM:      --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM:      
+UVVM: ID_LOG_MSG_CTRL                    0.0 ns  TB seq.                        enable_log_msg(ALL_MESSAGES). 
+UVVM: 
+UVVM: 
+UVVM: ID_LOG_HDR                         0.0 ns  TB seq.                        Start Simulation of TB for IRQC
+UVVM: -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM: ID_SEQUENCER_SUB                   0.0 ns  TB seq.                        All inputs set passive
+UVVM: ID_CLOCK_GEN                       0.0 ns  TB seq.                        Starting clock IRQC TB clock
+UVVM: ID_GEN_PULSE                     100.0 ns  TB seq.                        Pulsed to 1 for 100000000 fs. 'Pulsed reset-signal - active for 10T'
+UVVM: ID_POS_ACK                       100.0 ns  TB seq.                        check_value() => OK, for boolean true. 'Must be at least 1 interrupt source'
+UVVM: ID_POS_ACK                       100.0 ns  TB seq.                        check_value() => OK, for boolean true. 'This TB is only checking IRQC with up to 8 interrupt
+UVVM:                                                                           sources'
+UVVM: 
+UVVM: 
+UVVM: ID_LOG_HDR                       100.0 ns  TB seq.                        Check defaults on output ports
+UVVM: -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM: ID_POS_ACK                       100.0 ns  TB seq.                        check_value() => OK, for std_logic '0' (exp: '0'). 'Interrupt to CPU must be default inactive'
+UVVM: ID_POS_ACK                       100.0 ns  TB seq.                        check_value() => OK, for slv x"00"'. 'Register data bus output must be default passive'
+UVVM: 
+UVVM: 
+UVVM: ID_LOG_HDR                       100.0 ns  TB seq.                        Check register defaults and access (write + read)
+UVVM: -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM: ID_SEQUENCER                     100.0 ns  TB seq.                        
+UVVM:                                                                           Checking Register defaults
+UVVM: ID_BFM                           112.5 ns  TB seq.                        sbi_check(A:x"0", x"00")=> OK, read data = x"00". 'IRR default'
+UVVM: ID_BFM                           122.5 ns  TB seq.                        sbi_check(A:x"1", x"00")=> OK, read data = x"00". 'IER default'
+UVVM: ID_BFM                           132.5 ns  TB seq.                        sbi_check(A:x"4", x"00")=> OK, read data = x"00". 'IPR default'
+UVVM: ID_BFM                           142.5 ns  TB seq.                        sbi_check(A:x"7", x"00")=> OK, read data = x"00". 'IRQ2CPU_ALLOWED default'
+UVVM: ID_SEQUENCER                     142.5 ns  TB seq.                        
+UVVM:                                                                           Checking Register Write/Read
+UVVM: ID_BFM                           152.5 ns  TB seq.                        sbi_write(A:x"1", x"15") completed. 'IER'
+UVVM: ID_BFM                           162.5 ns  TB seq.                        sbi_check(A:x"1", x"15")=> OK, read data = x"15". 'IER pure readback'
+UVVM: ID_BFM                           172.5 ns  TB seq.                        sbi_write(A:x"1", x"2A") completed. 'IER'
+UVVM: ID_BFM                           182.5 ns  TB seq.                        sbi_check(A:x"1", x"2A")=> OK, read data = x"2A". 'IER pure readback'
+UVVM: ID_BFM                           192.5 ns  TB seq.                        sbi_write(A:x"1", x"00") completed. 'IER'
+UVVM: ID_BFM                           202.5 ns  TB seq.                        sbi_check(A:x"1", x"00")=> OK, read data = x"00". 'IER pure readback'
+UVVM: 
+UVVM: 
+UVVM: ID_LOG_HDR                       202.5 ns  TB seq.                        Check register trigger/clear mechanism
+UVVM: -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM: ID_BFM                           212.5 ns  TB seq.                        sbi_write(A:x"2", x"2A") completed. 'ITR : Set interrupts'
+UVVM: ID_BFM                           222.5 ns  TB seq.                        sbi_check(A:x"0", x"2A")=> OK, read data = x"2A". 'IRR'
+UVVM: ID_BFM                           232.5 ns  TB seq.                        sbi_write(A:x"2", x"15") completed. 'ITR : Set more interrupts'
+UVVM: ID_BFM                           242.5 ns  TB seq.                        sbi_check(A:x"0", x"3F")=> OK, read data = x"3F". 'IRR'
+UVVM: ID_BFM                           252.5 ns  TB seq.                        sbi_write(A:x"3", x"31") completed. 'ICR : Clear interrupts'
+UVVM: ID_BFM                           262.5 ns  TB seq.                        sbi_check(A:x"0", x"0E")=> OK, read data = x"E". 'IRR'
+UVVM: ID_BFM                           272.5 ns  TB seq.                        sbi_write(A:x"3", x"05") completed. 'ICR : Clear interrupts'
+UVVM: ID_BFM                           282.5 ns  TB seq.                        sbi_check(A:x"0", x"0A")=> OK, read data = x"A". 'IRR'
+UVVM: ID_BFM                           292.5 ns  TB seq.                        sbi_write(A:x"2", x"15") completed. 'ITR : Set more interrupts'
+UVVM: ID_BFM                           302.5 ns  TB seq.                        sbi_check(A:x"0", x"1F")=> OK, read data = x"1F". 'IRR'
+UVVM: ID_BFM                           312.5 ns  TB seq.                        sbi_write(A:x"3", x"1F") completed. 'ICR : Clear interrupts'
+UVVM: ID_BFM                           322.5 ns  TB seq.                        sbi_check(A:x"0", x"00")=> OK, read data = x"00". 'IRR'
+UVVM: 
+UVVM: 
+UVVM: ID_LOG_HDR                       322.5 ns  TB seq.                        Check interrupt sources, IER, IPR and irq2cpu
+UVVM: -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM: ID_SEQUENCER                     322.5 ns  TB seq.                        
+UVVM:                                                                           Checking interrupts and IRR
+UVVM: ID_BFM                           332.5 ns  TB seq.                        sbi_write(A:x"3", x"3F") completed. 'ICR : Clear all interrupts'
+UVVM: ID_GEN_PULSE                     345.0 ns  TB seq.                        Pulsed to x"2A" for 1 clk cycles. 'Pulse irq_source 1T'
+UVVM: ID_BFM                           362.5 ns  TB seq.                        sbi_check(A:x"0", x"2A")=> OK, read data = x"2A". 'IRR after irq pulses'
+UVVM: ID_GEN_PULSE                     375.0 ns  TB seq.                        Pulsed to x"01" for 1 clk cycles. 'Add more interrupts'
+UVVM: ID_BFM                           392.5 ns  TB seq.                        sbi_check(A:x"0", x"2B")=> OK, read data = x"2B". 'IRR after irq pulses'
+UVVM: ID_GEN_PULSE                     405.0 ns  TB seq.                        Pulsed to x"21" for 1 clk cycles. 'Repeat same interrupts'
+UVVM: ID_BFM                           422.5 ns  TB seq.                        sbi_check(A:x"0", x"2B")=> OK, read data = x"2B". 'IRR after irq pulses'
+UVVM: ID_GEN_PULSE                     435.0 ns  TB seq.                        Pulsed to x"14" for 1 clk cycles. 'Add remaining interrupts'
+UVVM: ID_BFM                           452.5 ns  TB seq.                        sbi_check(A:x"0", x"3F")=> OK, read data = x"3F". 'IRR after irq pulses'
+UVVM: ID_BFM                           462.5 ns  TB seq.                        sbi_write(A:x"3", x"2A") completed. 'ICR : Clear half the interrupts'
+UVVM: ID_GEN_PULSE                     475.0 ns  TB seq.                        Pulsed to x"20" for 1 clk cycles. 'Add more interrupts'
+UVVM: ID_BFM                           492.5 ns  TB seq.                        sbi_check(A:x"0", x"35")=> OK, read data = x"35". 'IRR after irq pulses'
+UVVM: ID_BFM                           502.5 ns  TB seq.                        sbi_write(A:x"3", x"3F") completed. 'ICR : Clear all interrupts'
+UVVM: ID_BFM                           512.5 ns  TB seq.                        sbi_check(A:x"0", x"00")=> OK, read data = x"00". 'IRR after clearing all'
+UVVM: ID_SEQUENCER                     512.5 ns  TB seq.                        
+UVVM:                                                                           Checking IER, IPR and irq2cpu
+UVVM: ID_BFM                           522.5 ns  TB seq.                        sbi_write(A:x"3", x"3F") completed. 'ICR : Clear all interrupts'
+UVVM: ID_BFM                           532.5 ns  TB seq.                        sbi_write(A:x"1", x"15") completed. 'IER : Enable some interrupts'
+UVVM: ID_BFM                           542.5 ns  TB seq.                        sbi_write(A:x"2", x"2A") completed. 'ITR : Trigger non-enable interrupts'
+UVVM: ID_BFM                           552.5 ns  TB seq.                        sbi_check(A:x"4", x"00")=> OK, read data = x"00". 'IPR should not be active'
+UVVM: ID_BFM                           562.5 ns  TB seq.                        sbi_check(A:x"7", x"00")=> OK, read data = x"00". 'IRQ2CPU_ALLOWED should not be active'
+UVVM: ID_BFM                           572.5 ns  TB seq.                        sbi_write(A:x"5", x"01") completed. 'IRQ2CPU_ENA : Enable main interrupt to CPU'
+UVVM: ID_BFM                           582.5 ns  TB seq.                        sbi_check(A:x"7", x"01")=> OK, read data = x"1". 'IRQ2CPU_ALLOWED should now be active'
+UVVM: ID_POS_ACK                       582.5 ns  TB seq.                        check_value() => OK, for std_logic '0' (exp: '0'). 'Interrupt to CPU must still be inactive'
+UVVM: ID_POS_ACK                       582.5 ns  TB seq.                        check_stable() => OK. Stable at 0. 'No spikes allowed on irq2cpu'
+UVVM: ID_GEN_PULSE                     595.0 ns  TB seq.                        Pulsed to x"01" for 1 clk cycles. 'Add a single enabled interrupt'
+UVVM: ID_POS_ACK                       595.0 ns  TB seq.                        await_value(std_logic 1, 0 ns, 10 ns) => OK. Condition occurred after 0 ns. 'Interrupt expected
+UVVM:                                                                           immediately'
+UVVM: ID_BFM                           612.5 ns  TB seq.                        sbi_check(A:x"0", x"2B")=> OK, read data = x"2B". 'IRR should now be active'
+UVVM: ID_BFM                           622.5 ns  TB seq.                        sbi_check(A:x"4", x"01")=> OK, read data = x"1". 'IPR should now be active'
+UVVM: ID_SEQUENCER                     622.5 ns  TB seq.                        
+UVVM:                                                                           More details checked in the autonomy section below
+UVVM: ID_POS_ACK                       622.5 ns  TB seq.                        check_value() => OK, for std_logic '1' (exp: '1'). 'Interrupt to CPU must still be active'
+UVVM: ID_POS_ACK                       622.5 ns  TB seq.                        check_stable() => OK. Stable at 1. 'No spikes allowed on irq2cpu'
+UVVM: 
+UVVM: 
+UVVM: ID_LOG_HDR                       622.5 ns  TB seq.                        Check autonomy for all interrupts
+UVVM: -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM: ID_BFM                           632.5 ns  TB seq.                        sbi_write(A:x"3", x"3F") completed. 'ICR : Clear all interrupts'
+UVVM: ID_BFM                           642.5 ns  TB seq.                        sbi_write(A:x"1", x"3F") completed. 'IER : Disable all interrupts'
+UVVM: ID_BFM                           652.5 ns  TB seq.                        sbi_write(A:x"5", x"01") completed. 'IRQ2CPU_ENA : Allow interrupt to CPU'
+UVVM: ID_SEQUENCER                     652.5 ns  TB seq.                        
+UVVM: ID_SEQUENCER                     652.5 ns  TB seq.                        - Checking irq_source(0) and all corresponding functionality
+UVVM: ID_SEQUENCER                     652.5 ns  TB seq.                        - - Check interrupt activation not affected by non related interrupts or registers
+UVVM: ID_BFM                           662.5 ns  TB seq.                        sbi_write(A:x"1", x"01") completed. 'IER : Enable selected interrupt'
+UVVM: ID_GEN_PULSE                     675.0 ns  TB seq.                        Pulsed to x"3E" for 1 clk cycles. 'Pulse all non-enabled interrupts'
+UVVM: ID_BFM                           692.5 ns  TB seq.                        sbi_write(A:x"2", x"FE") completed. 'ITR : Trigger all non-enabled interrupts'
+UVVM: ID_BFM                           702.5 ns  TB seq.                        sbi_check(A:x"0", x"3E")=> OK, read data = x"3E". 'IRR not yet triggered'
+UVVM: ID_BFM                           712.5 ns  TB seq.                        sbi_check(A:x"4", x"00")=> OK, read data = x"00". 'IPR not yet triggered'
+UVVM: ID_POS_ACK                       712.5 ns  TB seq.                        check_value() => OK, for std_logic '0' (exp: '0'). 'Interrupt to CPU must still be inactive'
+UVVM: ID_POS_ACK                       712.5 ns  TB seq.                        check_stable() => OK. Stable at 0. 'No spikes allowed on irq2cpu'
+UVVM: ID_GEN_PULSE                     725.0 ns  TB seq.                        Pulsed to x"01" for 1 clk cycles. 'Pulse the enabled interrupt'
+UVVM: ID_POS_ACK                       725.0 ns  TB seq.                        await_value(std_logic 1, 0 ns, 10 ns) => OK. Condition occurred after 0 ns. 'Interrupt expected
+UVVM:                                                                           immediately'
+UVVM: ID_BFM                           742.5 ns  TB seq.                        sbi_check(A:x"0", x"3F")=> OK, read data = x"3F". 'All IRR triggered'
+UVVM: ID_BFM                           752.5 ns  TB seq.                        sbi_check(A:x"4", x"01")=> OK, read data = x"1". 'IPR triggered for selected'
+UVVM: ID_SEQUENCER                     752.5 ns  TB seq.                        
+UVVM:                                                                           - - Check interrupt deactivation not affected by non related interrupts or registers
+UVVM: ID_BFM                           762.5 ns  TB seq.                        sbi_write(A:x"3", x"FE") completed. 'ICR : Clear all non-enabled interrupts'
+UVVM: ID_BFM                           772.5 ns  TB seq.                        sbi_write(A:x"1", x"3F") completed. 'IER : Enable all interrupts'
+UVVM: ID_BFM                           782.5 ns  TB seq.                        sbi_write(A:x"1", x"01") completed. 'IER : Disable non-selected interrupts'
+UVVM: ID_GEN_PULSE                     795.0 ns  TB seq.                        Pulsed to x"3F" for 1 clk cycles. 'Pulse all interrupts'
+UVVM: ID_BFM                           812.5 ns  TB seq.                        sbi_write(A:x"2", x"FF") completed. 'ITR : Trigger all interrupts'
+UVVM: ID_POS_ACK                       812.5 ns  TB seq.                        check_stable() => OK. Stable at 1. 'No spikes allowed on irq2cpu (='1')'
+UVVM: ID_BFM                           822.5 ns  TB seq.                        sbi_write(A:x"1", x"FE") completed. 'IER : Enable all interrupts but disable selected'
+UVVM: ID_POS_ACK                       822.5 ns  TB seq.                        check_value() => OK, for std_logic '1' (exp: '1'). 'Interrupt to CPU still active'
+UVVM: ID_BFM                           832.5 ns  TB seq.                        sbi_check(A:x"0", x"3F")=> OK, read data = x"3F". 'IRR still active for all'
+UVVM: ID_BFM                           842.5 ns  TB seq.                        sbi_write(A:x"3", x"FE") completed. 'ICR : Clear all non-enabled interrupts'
+UVVM: ID_POS_ACK                       842.5 ns  TB seq.                        await_value(std_logic 0, 0 ns, 10 ns) => OK. Condition occurred after 0 ns. 'Interrupt
+UVVM:                                                                           deactivation expected immediately'
+UVVM: ID_BFM                           852.5 ns  TB seq.                        sbi_write(A:x"1", x"01") completed. 'IER : Re-enable selected interrupt'
+UVVM: ID_POS_ACK                       852.5 ns  TB seq.                        await_value(std_logic 1, 0 ns, 10 ns) => OK. Condition occurred after 0 ns. 'Interrupt
+UVVM:                                                                           reactivation expected immediately'
+UVVM: ID_BFM                           862.5 ns  TB seq.                        sbi_check(A:x"4", x"01")=> OK, read data = x"1". 'IPR still active for selected'
+UVVM: ID_BFM                           872.5 ns  TB seq.                        sbi_write(A:x"3", x"01") completed. 'ICR : Clear selected interrupt'
+UVVM: ID_POS_ACK                       872.5 ns  TB seq.                        check_value() => OK, for std_logic '0' (exp: '0'). 'Interrupt to CPU must go inactive'
+UVVM: ID_BFM                           882.5 ns  TB seq.                        sbi_check(A:x"0", x"00")=> OK, read data = x"00". 'IRR all inactive'
+UVVM: ID_BFM                           892.5 ns  TB seq.                        sbi_check(A:x"4", x"00")=> OK, read data = x"00". 'IPR all inactive'
+UVVM: ID_BFM                           902.5 ns  TB seq.                        sbi_write(A:x"1", x"00") completed. 'IER : Disable all interrupts'
+UVVM: ID_SEQUENCER                     902.5 ns  TB seq.                        
+UVVM: ID_SEQUENCER                     902.5 ns  TB seq.                        - Checking irq_source(1) and all corresponding functionality
+UVVM: ID_SEQUENCER                     902.5 ns  TB seq.                        - - Check interrupt activation not affected by non related interrupts or registers
+UVVM: ID_BFM                           912.5 ns  TB seq.                        sbi_write(A:x"1", x"02") completed. 'IER : Enable selected interrupt'
+UVVM: ID_GEN_PULSE                     925.0 ns  TB seq.                        Pulsed to x"3D" for 1 clk cycles. 'Pulse all non-enabled interrupts'
+UVVM: ID_BFM                           942.5 ns  TB seq.                        sbi_write(A:x"2", x"FD") completed. 'ITR : Trigger all non-enabled interrupts'
+UVVM: ID_BFM                           952.5 ns  TB seq.                        sbi_check(A:x"0", x"3D")=> OK, read data = x"3D". 'IRR not yet triggered'
+UVVM: ID_BFM                           962.5 ns  TB seq.                        sbi_check(A:x"4", x"00")=> OK, read data = x"00". 'IPR not yet triggered'
+UVVM: ID_POS_ACK                       962.5 ns  TB seq.                        check_value() => OK, for std_logic '0' (exp: '0'). 'Interrupt to CPU must still be inactive'
+UVVM: ID_POS_ACK                       962.5 ns  TB seq.                        check_stable() => OK. Stable at 0. 'No spikes allowed on irq2cpu'
+UVVM: ID_GEN_PULSE                     975.0 ns  TB seq.                        Pulsed to x"02" for 1 clk cycles. 'Pulse the enabled interrupt'
+UVVM: ID_POS_ACK                       975.0 ns  TB seq.                        await_value(std_logic 1, 0 ns, 10 ns) => OK. Condition occurred after 0 ns. 'Interrupt expected
+UVVM:                                                                           immediately'
+UVVM: ID_BFM                           992.5 ns  TB seq.                        sbi_check(A:x"0", x"3F")=> OK, read data = x"3F". 'All IRR triggered'
+UVVM: ID_BFM                          1002.5 ns  TB seq.                        sbi_check(A:x"4", x"02")=> OK, read data = x"2". 'IPR triggered for selected'
+UVVM: ID_SEQUENCER                    1002.5 ns  TB seq.                        
+UVVM:                                                                           - - Check interrupt deactivation not affected by non related interrupts or registers
+UVVM: ID_BFM                          1012.5 ns  TB seq.                        sbi_write(A:x"3", x"FD") completed. 'ICR : Clear all non-enabled interrupts'
+UVVM: ID_BFM                          1022.5 ns  TB seq.                        sbi_write(A:x"1", x"3F") completed. 'IER : Enable all interrupts'
+UVVM: ID_BFM                          1032.5 ns  TB seq.                        sbi_write(A:x"1", x"02") completed. 'IER : Disable non-selected interrupts'
+UVVM: ID_GEN_PULSE                    1045.0 ns  TB seq.                        Pulsed to x"3F" for 1 clk cycles. 'Pulse all interrupts'
+UVVM: ID_BFM                          1062.5 ns  TB seq.                        sbi_write(A:x"2", x"FF") completed. 'ITR : Trigger all interrupts'
+UVVM: ID_POS_ACK                      1062.5 ns  TB seq.                        check_stable() => OK. Stable at 1. 'No spikes allowed on irq2cpu (='1')'
+UVVM: ID_BFM                          1072.5 ns  TB seq.                        sbi_write(A:x"1", x"FD") completed. 'IER : Enable all interrupts but disable selected'
+UVVM: ID_POS_ACK                      1072.5 ns  TB seq.                        check_value() => OK, for std_logic '1' (exp: '1'). 'Interrupt to CPU still active'
+UVVM: ID_BFM                          1082.5 ns  TB seq.                        sbi_check(A:x"0", x"3F")=> OK, read data = x"3F". 'IRR still active for all'
+UVVM: ID_BFM                          1092.5 ns  TB seq.                        sbi_write(A:x"3", x"FD") completed. 'ICR : Clear all non-enabled interrupts'
+UVVM: ID_POS_ACK                      1092.5 ns  TB seq.                        await_value(std_logic 0, 0 ns, 10 ns) => OK. Condition occurred after 0 ns. 'Interrupt
+UVVM:                                                                           deactivation expected immediately'
+UVVM: ID_BFM                          1102.5 ns  TB seq.                        sbi_write(A:x"1", x"02") completed. 'IER : Re-enable selected interrupt'
+UVVM: ID_POS_ACK                      1102.5 ns  TB seq.                        await_value(std_logic 1, 0 ns, 10 ns) => OK. Condition occurred after 0 ns. 'Interrupt
+UVVM:                                                                           reactivation expected immediately'
+UVVM: ID_BFM                          1112.5 ns  TB seq.                        sbi_check(A:x"4", x"02")=> OK, read data = x"2". 'IPR still active for selected'
+UVVM: ID_BFM                          1122.5 ns  TB seq.                        sbi_write(A:x"3", x"02") completed. 'ICR : Clear selected interrupt'
+UVVM: ID_POS_ACK                      1122.5 ns  TB seq.                        check_value() => OK, for std_logic '0' (exp: '0'). 'Interrupt to CPU must go inactive'
+UVVM: ID_BFM                          1132.5 ns  TB seq.                        sbi_check(A:x"0", x"00")=> OK, read data = x"00". 'IRR all inactive'
+UVVM: ID_BFM                          1142.5 ns  TB seq.                        sbi_check(A:x"4", x"00")=> OK, read data = x"00". 'IPR all inactive'
+UVVM: ID_BFM                          1152.5 ns  TB seq.                        sbi_write(A:x"1", x"00") completed. 'IER : Disable all interrupts'
+UVVM: ID_SEQUENCER                    1152.5 ns  TB seq.                        
+UVVM: ID_SEQUENCER                    1152.5 ns  TB seq.                        - Checking irq_source(2) and all corresponding functionality
+UVVM: ID_SEQUENCER                    1152.5 ns  TB seq.                        - - Check interrupt activation not affected by non related interrupts or registers
+UVVM: ID_BFM                          1162.5 ns  TB seq.                        sbi_write(A:x"1", x"04") completed. 'IER : Enable selected interrupt'
+UVVM: ID_GEN_PULSE                    1175.0 ns  TB seq.                        Pulsed to x"3B" for 1 clk cycles. 'Pulse all non-enabled interrupts'
+UVVM: ID_BFM                          1192.5 ns  TB seq.                        sbi_write(A:x"2", x"FB") completed. 'ITR : Trigger all non-enabled interrupts'
+UVVM: ID_BFM                          1202.5 ns  TB seq.                        sbi_check(A:x"0", x"3B")=> OK, read data = x"3B". 'IRR not yet triggered'
+UVVM: ID_BFM                          1212.5 ns  TB seq.                        sbi_check(A:x"4", x"00")=> OK, read data = x"00". 'IPR not yet triggered'
+UVVM: ID_POS_ACK                      1212.5 ns  TB seq.                        check_value() => OK, for std_logic '0' (exp: '0'). 'Interrupt to CPU must still be inactive'
+UVVM: ID_POS_ACK                      1212.5 ns  TB seq.                        check_stable() => OK. Stable at 0. 'No spikes allowed on irq2cpu'
+UVVM: ID_GEN_PULSE                    1225.0 ns  TB seq.                        Pulsed to x"04" for 1 clk cycles. 'Pulse the enabled interrupt'
+UVVM: ID_POS_ACK                      1225.0 ns  TB seq.                        await_value(std_logic 1, 0 ns, 10 ns) => OK. Condition occurred after 0 ns. 'Interrupt expected
+UVVM:                                                                           immediately'
+UVVM: ID_BFM                          1242.5 ns  TB seq.                        sbi_check(A:x"0", x"3F")=> OK, read data = x"3F". 'All IRR triggered'
+UVVM: ID_BFM                          1252.5 ns  TB seq.                        sbi_check(A:x"4", x"04")=> OK, read data = x"4". 'IPR triggered for selected'
+UVVM: ID_SEQUENCER                    1252.5 ns  TB seq.                        
+UVVM:                                                                           - - Check interrupt deactivation not affected by non related interrupts or registers
+UVVM: ID_BFM                          1262.5 ns  TB seq.                        sbi_write(A:x"3", x"FB") completed. 'ICR : Clear all non-enabled interrupts'
+UVVM: ID_BFM                          1272.5 ns  TB seq.                        sbi_write(A:x"1", x"3F") completed. 'IER : Enable all interrupts'
+UVVM: ID_BFM                          1282.5 ns  TB seq.                        sbi_write(A:x"1", x"04") completed. 'IER : Disable non-selected interrupts'
+UVVM: ID_GEN_PULSE                    1295.0 ns  TB seq.                        Pulsed to x"3F" for 1 clk cycles. 'Pulse all interrupts'
+UVVM: ID_BFM                          1312.5 ns  TB seq.                        sbi_write(A:x"2", x"FF") completed. 'ITR : Trigger all interrupts'
+UVVM: ID_POS_ACK                      1312.5 ns  TB seq.                        check_stable() => OK. Stable at 1. 'No spikes allowed on irq2cpu (='1')'
+UVVM: ID_BFM                          1322.5 ns  TB seq.                        sbi_write(A:x"1", x"FB") completed. 'IER : Enable all interrupts but disable selected'
+UVVM: ID_POS_ACK                      1322.5 ns  TB seq.                        check_value() => OK, for std_logic '1' (exp: '1'). 'Interrupt to CPU still active'
+UVVM: ID_BFM                          1332.5 ns  TB seq.                        sbi_check(A:x"0", x"3F")=> OK, read data = x"3F". 'IRR still active for all'
+UVVM: ID_BFM                          1342.5 ns  TB seq.                        sbi_write(A:x"3", x"FB") completed. 'ICR : Clear all non-enabled interrupts'
+UVVM: ID_POS_ACK                      1342.5 ns  TB seq.                        await_value(std_logic 0, 0 ns, 10 ns) => OK. Condition occurred after 0 ns. 'Interrupt
+UVVM:                                                                           deactivation expected immediately'
+UVVM: ID_BFM                          1352.5 ns  TB seq.                        sbi_write(A:x"1", x"04") completed. 'IER : Re-enable selected interrupt'
+UVVM: ID_POS_ACK                      1352.5 ns  TB seq.                        await_value(std_logic 1, 0 ns, 10 ns) => OK. Condition occurred after 0 ns. 'Interrupt
+UVVM:                                                                           reactivation expected immediately'
+UVVM: ID_BFM                          1362.5 ns  TB seq.                        sbi_check(A:x"4", x"04")=> OK, read data = x"4". 'IPR still active for selected'
+UVVM: ID_BFM                          1372.5 ns  TB seq.                        sbi_write(A:x"3", x"04") completed. 'ICR : Clear selected interrupt'
+UVVM: ID_POS_ACK                      1372.5 ns  TB seq.                        check_value() => OK, for std_logic '0' (exp: '0'). 'Interrupt to CPU must go inactive'
+UVVM: ID_BFM                          1382.5 ns  TB seq.                        sbi_check(A:x"0", x"00")=> OK, read data = x"00". 'IRR all inactive'
+UVVM: ID_BFM                          1392.5 ns  TB seq.                        sbi_check(A:x"4", x"00")=> OK, read data = x"00". 'IPR all inactive'
+UVVM: ID_BFM                          1402.5 ns  TB seq.                        sbi_write(A:x"1", x"00") completed. 'IER : Disable all interrupts'
+UVVM: ID_SEQUENCER                    1402.5 ns  TB seq.                        
+UVVM: ID_SEQUENCER                    1402.5 ns  TB seq.                        - Checking irq_source(3) and all corresponding functionality
+UVVM: ID_SEQUENCER                    1402.5 ns  TB seq.                        - - Check interrupt activation not affected by non related interrupts or registers
+UVVM: ID_BFM                          1412.5 ns  TB seq.                        sbi_write(A:x"1", x"08") completed. 'IER : Enable selected interrupt'
+UVVM: ID_GEN_PULSE                    1425.0 ns  TB seq.                        Pulsed to x"37" for 1 clk cycles. 'Pulse all non-enabled interrupts'
+UVVM: ID_BFM                          1442.5 ns  TB seq.                        sbi_write(A:x"2", x"F7") completed. 'ITR : Trigger all non-enabled interrupts'
+UVVM: ID_BFM                          1452.5 ns  TB seq.                        sbi_check(A:x"0", x"37")=> OK, read data = x"37". 'IRR not yet triggered'
+UVVM: ID_BFM                          1462.5 ns  TB seq.                        sbi_check(A:x"4", x"00")=> OK, read data = x"00". 'IPR not yet triggered'
+UVVM: ID_POS_ACK                      1462.5 ns  TB seq.                        check_value() => OK, for std_logic '0' (exp: '0'). 'Interrupt to CPU must still be inactive'
+UVVM: ID_POS_ACK                      1462.5 ns  TB seq.                        check_stable() => OK. Stable at 0. 'No spikes allowed on irq2cpu'
+UVVM: ID_GEN_PULSE                    1475.0 ns  TB seq.                        Pulsed to x"08" for 1 clk cycles. 'Pulse the enabled interrupt'
+UVVM: ID_POS_ACK                      1475.0 ns  TB seq.                        await_value(std_logic 1, 0 ns, 10 ns) => OK. Condition occurred after 0 ns. 'Interrupt expected
+UVVM:                                                                           immediately'
+UVVM: ID_BFM                          1492.5 ns  TB seq.                        sbi_check(A:x"0", x"3F")=> OK, read data = x"3F". 'All IRR triggered'
+UVVM: ID_BFM                          1502.5 ns  TB seq.                        sbi_check(A:x"4", x"08")=> OK, read data = x"8". 'IPR triggered for selected'
+UVVM: ID_SEQUENCER                    1502.5 ns  TB seq.                        
+UVVM:                                                                           - - Check interrupt deactivation not affected by non related interrupts or registers
+UVVM: ID_BFM                          1512.5 ns  TB seq.                        sbi_write(A:x"3", x"F7") completed. 'ICR : Clear all non-enabled interrupts'
+UVVM: ID_BFM                          1522.5 ns  TB seq.                        sbi_write(A:x"1", x"3F") completed. 'IER : Enable all interrupts'
+UVVM: ID_BFM                          1532.5 ns  TB seq.                        sbi_write(A:x"1", x"08") completed. 'IER : Disable non-selected interrupts'
+UVVM: ID_GEN_PULSE                    1545.0 ns  TB seq.                        Pulsed to x"3F" for 1 clk cycles. 'Pulse all interrupts'
+UVVM: ID_BFM                          1562.5 ns  TB seq.                        sbi_write(A:x"2", x"FF") completed. 'ITR : Trigger all interrupts'
+UVVM: ID_POS_ACK                      1562.5 ns  TB seq.                        check_stable() => OK. Stable at 1. 'No spikes allowed on irq2cpu (='1')'
+UVVM: ID_BFM                          1572.5 ns  TB seq.                        sbi_write(A:x"1", x"F7") completed. 'IER : Enable all interrupts but disable selected'
+UVVM: ID_POS_ACK                      1572.5 ns  TB seq.                        check_value() => OK, for std_logic '1' (exp: '1'). 'Interrupt to CPU still active'
+UVVM: ID_BFM                          1582.5 ns  TB seq.                        sbi_check(A:x"0", x"3F")=> OK, read data = x"3F". 'IRR still active for all'
+UVVM: ID_BFM                          1592.5 ns  TB seq.                        sbi_write(A:x"3", x"F7") completed. 'ICR : Clear all non-enabled interrupts'
+UVVM: ID_POS_ACK                      1592.5 ns  TB seq.                        await_value(std_logic 0, 0 ns, 10 ns) => OK. Condition occurred after 0 ns. 'Interrupt
+UVVM:                                                                           deactivation expected immediately'
+UVVM: ID_BFM                          1602.5 ns  TB seq.                        sbi_write(A:x"1", x"08") completed. 'IER : Re-enable selected interrupt'
+UVVM: ID_POS_ACK                      1602.5 ns  TB seq.                        await_value(std_logic 1, 0 ns, 10 ns) => OK. Condition occurred after 0 ns. 'Interrupt
+UVVM:                                                                           reactivation expected immediately'
+UVVM: ID_BFM                          1612.5 ns  TB seq.                        sbi_check(A:x"4", x"08")=> OK, read data = x"8". 'IPR still active for selected'
+UVVM: ID_BFM                          1622.5 ns  TB seq.                        sbi_write(A:x"3", x"08") completed. 'ICR : Clear selected interrupt'
+UVVM: ID_POS_ACK                      1622.5 ns  TB seq.                        check_value() => OK, for std_logic '0' (exp: '0'). 'Interrupt to CPU must go inactive'
+UVVM: ID_BFM                          1632.5 ns  TB seq.                        sbi_check(A:x"0", x"00")=> OK, read data = x"00". 'IRR all inactive'
+UVVM: ID_BFM                          1642.5 ns  TB seq.                        sbi_check(A:x"4", x"00")=> OK, read data = x"00". 'IPR all inactive'
+UVVM: ID_BFM                          1652.5 ns  TB seq.                        sbi_write(A:x"1", x"00") completed. 'IER : Disable all interrupts'
+UVVM: ID_SEQUENCER                    1652.5 ns  TB seq.                        
+UVVM: ID_SEQUENCER                    1652.5 ns  TB seq.                        - Checking irq_source(4) and all corresponding functionality
+UVVM: ID_SEQUENCER                    1652.5 ns  TB seq.                        - - Check interrupt activation not affected by non related interrupts or registers
+UVVM: ID_BFM                          1662.5 ns  TB seq.                        sbi_write(A:x"1", x"10") completed. 'IER : Enable selected interrupt'
+UVVM: ID_GEN_PULSE                    1675.0 ns  TB seq.                        Pulsed to x"2F" for 1 clk cycles. 'Pulse all non-enabled interrupts'
+UVVM: ID_BFM                          1692.5 ns  TB seq.                        sbi_write(A:x"2", x"EF") completed. 'ITR : Trigger all non-enabled interrupts'
+UVVM: ID_BFM                          1702.5 ns  TB seq.                        sbi_check(A:x"0", x"2F")=> OK, read data = x"2F". 'IRR not yet triggered'
+UVVM: ID_BFM                          1712.5 ns  TB seq.                        sbi_check(A:x"4", x"00")=> OK, read data = x"00". 'IPR not yet triggered'
+UVVM: ID_POS_ACK                      1712.5 ns  TB seq.                        check_value() => OK, for std_logic '0' (exp: '0'). 'Interrupt to CPU must still be inactive'
+UVVM: ID_POS_ACK                      1712.5 ns  TB seq.                        check_stable() => OK. Stable at 0. 'No spikes allowed on irq2cpu'
+UVVM: ID_GEN_PULSE                    1725.0 ns  TB seq.                        Pulsed to x"10" for 1 clk cycles. 'Pulse the enabled interrupt'
+UVVM: ID_POS_ACK                      1725.0 ns  TB seq.                        await_value(std_logic 1, 0 ns, 10 ns) => OK. Condition occurred after 0 ns. 'Interrupt expected
+UVVM:                                                                           immediately'
+UVVM: ID_BFM                          1742.5 ns  TB seq.                        sbi_check(A:x"0", x"3F")=> OK, read data = x"3F". 'All IRR triggered'
+UVVM: ID_BFM                          1752.5 ns  TB seq.                        sbi_check(A:x"4", x"10")=> OK, read data = x"10". 'IPR triggered for selected'
+UVVM: ID_SEQUENCER                    1752.5 ns  TB seq.                        
+UVVM:                                                                           - - Check interrupt deactivation not affected by non related interrupts or registers
+UVVM: ID_BFM                          1762.5 ns  TB seq.                        sbi_write(A:x"3", x"EF") completed. 'ICR : Clear all non-enabled interrupts'
+UVVM: ID_BFM                          1772.5 ns  TB seq.                        sbi_write(A:x"1", x"3F") completed. 'IER : Enable all interrupts'
+UVVM: ID_BFM                          1782.5 ns  TB seq.                        sbi_write(A:x"1", x"10") completed. 'IER : Disable non-selected interrupts'
+UVVM: ID_GEN_PULSE                    1795.0 ns  TB seq.                        Pulsed to x"3F" for 1 clk cycles. 'Pulse all interrupts'
+UVVM: ID_BFM                          1812.5 ns  TB seq.                        sbi_write(A:x"2", x"FF") completed. 'ITR : Trigger all interrupts'
+UVVM: ID_POS_ACK                      1812.5 ns  TB seq.                        check_stable() => OK. Stable at 1. 'No spikes allowed on irq2cpu (='1')'
+UVVM: ID_BFM                          1822.5 ns  TB seq.                        sbi_write(A:x"1", x"EF") completed. 'IER : Enable all interrupts but disable selected'
+UVVM: ID_POS_ACK                      1822.5 ns  TB seq.                        check_value() => OK, for std_logic '1' (exp: '1'). 'Interrupt to CPU still active'
+UVVM: ID_BFM                          1832.5 ns  TB seq.                        sbi_check(A:x"0", x"3F")=> OK, read data = x"3F". 'IRR still active for all'
+UVVM: ID_BFM                          1842.5 ns  TB seq.                        sbi_write(A:x"3", x"EF") completed. 'ICR : Clear all non-enabled interrupts'
+UVVM: ID_POS_ACK                      1842.5 ns  TB seq.                        await_value(std_logic 0, 0 ns, 10 ns) => OK. Condition occurred after 0 ns. 'Interrupt
+UVVM:                                                                           deactivation expected immediately'
+UVVM: ID_BFM                          1852.5 ns  TB seq.                        sbi_write(A:x"1", x"10") completed. 'IER : Re-enable selected interrupt'
+UVVM: ID_POS_ACK                      1852.5 ns  TB seq.                        await_value(std_logic 1, 0 ns, 10 ns) => OK. Condition occurred after 0 ns. 'Interrupt
+UVVM:                                                                           reactivation expected immediately'
+UVVM: ID_BFM                          1862.5 ns  TB seq.                        sbi_check(A:x"4", x"10")=> OK, read data = x"10". 'IPR still active for selected'
+UVVM: ID_BFM                          1872.5 ns  TB seq.                        sbi_write(A:x"3", x"10") completed. 'ICR : Clear selected interrupt'
+UVVM: ID_POS_ACK                      1872.5 ns  TB seq.                        check_value() => OK, for std_logic '0' (exp: '0'). 'Interrupt to CPU must go inactive'
+UVVM: ID_BFM                          1882.5 ns  TB seq.                        sbi_check(A:x"0", x"00")=> OK, read data = x"00". 'IRR all inactive'
+UVVM: ID_BFM                          1892.5 ns  TB seq.                        sbi_check(A:x"4", x"00")=> OK, read data = x"00". 'IPR all inactive'
+UVVM: ID_BFM                          1902.5 ns  TB seq.                        sbi_write(A:x"1", x"00") completed. 'IER : Disable all interrupts'
+UVVM: ID_SEQUENCER                    1902.5 ns  TB seq.                        
+UVVM: ID_SEQUENCER                    1902.5 ns  TB seq.                        - Checking irq_source(5) and all corresponding functionality
+UVVM: ID_SEQUENCER                    1902.5 ns  TB seq.                        - - Check interrupt activation not affected by non related interrupts or registers
+UVVM: ID_BFM                          1912.5 ns  TB seq.                        sbi_write(A:x"1", x"20") completed. 'IER : Enable selected interrupt'
+UVVM: ID_GEN_PULSE                    1925.0 ns  TB seq.                        Pulsed to x"1F" for 1 clk cycles. 'Pulse all non-enabled interrupts'
+UVVM: ID_BFM                          1942.5 ns  TB seq.                        sbi_write(A:x"2", x"DF") completed. 'ITR : Trigger all non-enabled interrupts'
+UVVM: ID_BFM                          1952.5 ns  TB seq.                        sbi_check(A:x"0", x"1F")=> OK, read data = x"1F". 'IRR not yet triggered'
+UVVM: ID_BFM                          1962.5 ns  TB seq.                        sbi_check(A:x"4", x"00")=> OK, read data = x"00". 'IPR not yet triggered'
+UVVM: ID_POS_ACK                      1962.5 ns  TB seq.                        check_value() => OK, for std_logic '0' (exp: '0'). 'Interrupt to CPU must still be inactive'
+UVVM: ID_POS_ACK                      1962.5 ns  TB seq.                        check_stable() => OK. Stable at 0. 'No spikes allowed on irq2cpu'
+UVVM: ID_GEN_PULSE                    1975.0 ns  TB seq.                        Pulsed to x"20" for 1 clk cycles. 'Pulse the enabled interrupt'
+UVVM: ID_POS_ACK                      1975.0 ns  TB seq.                        await_value(std_logic 1, 0 ns, 10 ns) => OK. Condition occurred after 0 ns. 'Interrupt expected
+UVVM:                                                                           immediately'
+UVVM: ID_BFM                          1992.5 ns  TB seq.                        sbi_check(A:x"0", x"3F")=> OK, read data = x"3F". 'All IRR triggered'
+UVVM: ID_BFM                          2002.5 ns  TB seq.                        sbi_check(A:x"4", x"20")=> OK, read data = x"20". 'IPR triggered for selected'
+UVVM: ID_SEQUENCER                    2002.5 ns  TB seq.                        
+UVVM:                                                                           - - Check interrupt deactivation not affected by non related interrupts or registers
+UVVM: ID_BFM                          2012.5 ns  TB seq.                        sbi_write(A:x"3", x"DF") completed. 'ICR : Clear all non-enabled interrupts'
+UVVM: ID_BFM                          2022.5 ns  TB seq.                        sbi_write(A:x"1", x"3F") completed. 'IER : Enable all interrupts'
+UVVM: ID_BFM                          2032.5 ns  TB seq.                        sbi_write(A:x"1", x"20") completed. 'IER : Disable non-selected interrupts'
+UVVM: ID_GEN_PULSE                    2045.0 ns  TB seq.                        Pulsed to x"3F" for 1 clk cycles. 'Pulse all interrupts'
+UVVM: ID_BFM                          2062.5 ns  TB seq.                        sbi_write(A:x"2", x"FF") completed. 'ITR : Trigger all interrupts'
+UVVM: ID_POS_ACK                      2062.5 ns  TB seq.                        check_stable() => OK. Stable at 1. 'No spikes allowed on irq2cpu (='1')'
+UVVM: ID_BFM                          2072.5 ns  TB seq.                        sbi_write(A:x"1", x"DF") completed. 'IER : Enable all interrupts but disable selected'
+UVVM: ID_POS_ACK                      2072.5 ns  TB seq.                        check_value() => OK, for std_logic '1' (exp: '1'). 'Interrupt to CPU still active'
+UVVM: ID_BFM                          2082.5 ns  TB seq.                        sbi_check(A:x"0", x"3F")=> OK, read data = x"3F". 'IRR still active for all'
+UVVM: ID_BFM                          2092.5 ns  TB seq.                        sbi_write(A:x"3", x"DF") completed. 'ICR : Clear all non-enabled interrupts'
+UVVM: ID_POS_ACK                      2092.5 ns  TB seq.                        await_value(std_logic 0, 0 ns, 10 ns) => OK. Condition occurred after 0 ns. 'Interrupt
+UVVM:                                                                           deactivation expected immediately'
+UVVM: ID_BFM                          2102.5 ns  TB seq.                        sbi_write(A:x"1", x"20") completed. 'IER : Re-enable selected interrupt'
+UVVM: ID_POS_ACK                      2102.5 ns  TB seq.                        await_value(std_logic 1, 0 ns, 10 ns) => OK. Condition occurred after 0 ns. 'Interrupt
+UVVM:                                                                           reactivation expected immediately'
+UVVM: ID_BFM                          2112.5 ns  TB seq.                        sbi_check(A:x"4", x"20")=> OK, read data = x"20". 'IPR still active for selected'
+UVVM: ID_BFM                          2122.5 ns  TB seq.                        sbi_write(A:x"3", x"20") completed. 'ICR : Clear selected interrupt'
+UVVM: ID_POS_ACK                      2122.5 ns  TB seq.                        check_value() => OK, for std_logic '0' (exp: '0'). 'Interrupt to CPU must go inactive'
+UVVM: ID_BFM                          2132.5 ns  TB seq.                        sbi_check(A:x"0", x"00")=> OK, read data = x"00". 'IRR all inactive'
+UVVM: ID_BFM                          2142.5 ns  TB seq.                        sbi_check(A:x"4", x"00")=> OK, read data = x"00". 'IPR all inactive'
+UVVM: ID_BFM                          2152.5 ns  TB seq.                        sbi_write(A:x"1", x"00") completed. 'IER : Disable all interrupts'
+UVVM:      
+UVVM:      ====================================================================================================================================================================
+UVVM:      *** INTERMEDIATE SUMMARY OF ALL ALERTS ***
+UVVM:      ====================================================================================================================================================================
+UVVM:                                REGARDED   EXPECTED  IGNORED      Comment?
+UVVM:                NOTE         :      0         0         0         ok
+UVVM:                TB_NOTE      :      0         0         0         ok
+UVVM:                WARNING      :      0         0         0         ok
+UVVM:                TB_WARNING   :      0         0         0         ok
+UVVM:                MANUAL_CHECK :      0         0         0         ok
+UVVM:                ERROR        :      0         0         0         ok
+UVVM:                TB_ERROR     :      0         0         0         ok
+UVVM:                FAILURE      :      0         0         0         ok
+UVVM:                TB_FAILURE   :      0         0         0         ok
+UVVM:      ====================================================================================================================================================================
+UVVM:      
+UVVM: 
+UVVM: 
+UVVM: ID_LOG_HDR                      2152.5 ns  TB seq.                        Check irq acknowledge and re-enable
+UVVM: -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM: ID_SEQUENCER                    2152.5 ns  TB seq.                        - Activate interrupt
+UVVM: ID_BFM                          2162.5 ns  TB seq.                        sbi_write(A:x"2", x"20") completed. 'ICR : Set single upper interrupt'
+UVVM: ID_BFM                          2172.5 ns  TB seq.                        sbi_write(A:x"1", x"20") completed. 'IER : Enable single upper interrupts'
+UVVM: ID_BFM                          2182.5 ns  TB seq.                        sbi_write(A:x"5", x"01") completed. 'IRQ2CPU_ENA : Allow interrupt to CPU'
+UVVM: ID_POS_ACK                      2182.5 ns  TB seq.                        await_value(std_logic 1, 0 ns, 10 ns) => OK. Condition occurred after 0 ns. 'Interrupt
+UVVM:                                                                           activation expected'
+UVVM: ID_SEQUENCER                    2182.5 ns  TB seq.                        
+UVVM:                                                                           - Try potential malfunction
+UVVM: ID_BFM                          2192.5 ns  TB seq.                        sbi_write(A:x"5", x"01") completed. 'IRQ2CPU_ENA : Allow interrupt to CPU again - should not
+UVVM:                                                                           affect anything'
+UVVM: ID_BFM                          2202.5 ns  TB seq.                        sbi_write(A:x"5", x"00") completed. 'IRQ2CPU_ENA : Set to 0 - should not affect anything'
+UVVM: ID_BFM                          2212.5 ns  TB seq.                        sbi_write(A:x"6", x"00") completed. 'IRQ2CPU_DISABLE : Set to 0 - should not affect anything'
+UVVM: ID_POS_ACK                      2212.5 ns  TB seq.                        check_stable() => OK. Stable at 1. 'No spikes allowed on irq2cpu (='1')'
+UVVM: ID_SEQUENCER                    2212.5 ns  TB seq.                        
+UVVM:                                                                           - Acknowledge and deactivate interrupt
+UVVM: ID_GEN_PULSE                    2225.0 ns  TB seq.                        Pulsed to 1 for 1 clk cycles. 'Pulse irq2cpu_ack'
+UVVM: ID_POS_ACK                      2225.0 ns  TB seq.                        await_value(std_logic 0, 0 ns, 10 ns) => OK. Condition occurred after 0 ns. 'Interrupt
+UVVM:                                                                           deactivation expected'
+UVVM: ID_SEQUENCER                    2225.0 ns  TB seq.                        
+UVVM:                                                                           - Test for potential malfunction
+UVVM: ID_BFM                          2242.5 ns  TB seq.                        sbi_write(A:x"6", x"01") completed. 'IRQ2CPU_DISABLE : Disable interrupt to CPU again - should
+UVVM:                                                                           not affect anything'
+UVVM: ID_BFM                          2252.5 ns  TB seq.                        sbi_write(A:x"6", x"00") completed. 'IRQ2CPU_DISABLE : Set to 0 - should not affect anything'
+UVVM: ID_BFM                          2262.5 ns  TB seq.                        sbi_write(A:x"5", x"00") completed. 'IRQ2CPU_ENA : Set to 0 - should not affect anything'
+UVVM: ID_BFM                          2272.5 ns  TB seq.                        sbi_write(A:x"2", x"FF") completed. 'ICR : Trigger all interrupts'
+UVVM: ID_BFM                          2282.5 ns  TB seq.                        sbi_write(A:x"1", x"FF") completed. 'IER : Enable all interrupts'
+UVVM: ID_GEN_PULSE                    2295.0 ns  TB seq.                        Pulsed to x"3F" for 1 clk cycles. 'Pulse all interrupts'
+UVVM: ID_GEN_PULSE                    2315.0 ns  TB seq.                        Pulsed to 1 for 1 clk cycles. 'Pulse irq2cpu_ack'
+UVVM: ID_POS_ACK                      2315.0 ns  TB seq.                        check_stable() => OK. Stable at 0. 'No spikes allowed on irq2cpu (='0')'
+UVVM: ID_SEQUENCER                    2315.0 ns  TB seq.                        
+UVVM:                                                                           - Re-/de-activation
+UVVM: ID_BFM                          2332.5 ns  TB seq.                        sbi_write(A:x"5", x"01") completed. 'IRQ2CPU_ENA : Reactivate interrupt to CPU'
+UVVM: ID_POS_ACK                      2332.5 ns  TB seq.                        await_value(std_logic 1, 0 ns, 10 ns) => OK. Condition occurred after 0 ns. 'Interrupt
+UVVM:                                                                           reactivation expected'
+UVVM: ID_BFM                          2342.5 ns  TB seq.                        sbi_write(A:x"6", x"01") completed. 'IRQ2CPU_DISABLE : Deactivate interrupt to CPU'
+UVVM: ID_POS_ACK                      2342.5 ns  TB seq.                        await_value(std_logic 0, 0 ns, 10 ns) => OK. Condition occurred after 0 ns. 'Interrupt
+UVVM:                                                                           deactivation expected'
+UVVM: ID_BFM                          2352.5 ns  TB seq.                        sbi_write(A:x"5", x"01") completed. 'IRQ2CPU_ENA : Reactivate interrupt to CPU'
+UVVM: ID_POS_ACK                      2352.5 ns  TB seq.                        await_value(std_logic 1, 0 ns, 10 ns) => OK. Condition occurred after 0 ns. 'Interrupt
+UVVM:                                                                           reactivation expected'
+UVVM: 
+UVVM: 
+UVVM: ID_LOG_HDR                      2352.5 ns  TB seq.                        Check Reset
+UVVM: -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM: ID_SEQUENCER                    2352.5 ns  TB seq.                        - Activate all interrupts
+UVVM: ID_BFM                          2362.5 ns  TB seq.                        sbi_write(A:x"2", x"FF") completed. 'ICR : Set all interrupts'
+UVVM: ID_BFM                          2372.5 ns  TB seq.                        sbi_write(A:x"1", x"FF") completed. 'IER : Enable all interrupts'
+UVVM: ID_BFM                          2382.5 ns  TB seq.                        sbi_write(A:x"5", x"01") completed. 'IRQ2CPU_ENA : Allow interrupt to CPU'
+UVVM: ID_POS_ACK                      2382.5 ns  TB seq.                        await_value(std_logic 1, 0 ns, 10 ns) => OK. Condition occurred after 0 ns. 'Interrupt
+UVVM:                                                                           activation expected'
+UVVM: ID_GEN_PULSE                    2395.0 ns  TB seq.                        Pulsed to 1 for 1 clk cycles. 'Pulse reset'
+UVVM: ID_POS_ACK                      2395.0 ns  TB seq.                        await_value(std_logic 0, 0 ns, 10 ns) => OK. Condition occurred after 0 ns. 'Interrupt
+UVVM:                                                                           deactivation'
+UVVM: ID_BFM                          2412.5 ns  TB seq.                        sbi_check(A:x"1", x"00")=> OK, read data = x"00". 'IER all inactive'
+UVVM: ID_BFM                          2422.5 ns  TB seq.                        sbi_check(A:x"0", x"00")=> OK, read data = x"00". 'IRR all inactive'
+UVVM: ID_BFM                          2432.5 ns  TB seq.                        sbi_check(A:x"4", x"00")=> OK, read data = x"00". 'IPR all inactive'
+UVVM:      
+UVVM:      ====================================================================================================================================================================
+UVVM:      *** FINAL SUMMARY OF ALL ALERTS ***
+UVVM:      ====================================================================================================================================================================
+UVVM:                                REGARDED   EXPECTED  IGNORED      Comment?
+UVVM:                NOTE         :      0         0         0         ok
+UVVM:                TB_NOTE      :      0         0         0         ok
+UVVM:                WARNING      :      0         0         0         ok
+UVVM:                TB_WARNING   :      0         0         0         ok
+UVVM:                MANUAL_CHECK :      0         0         0         ok
+UVVM:                ERROR        :      0         0         0         ok
+UVVM:                TB_ERROR     :      0         0         0         ok
+UVVM:                FAILURE      :      0         0         0         ok
+UVVM:                TB_FAILURE   :      0         0         0         ok
+UVVM:      ====================================================================================================================================================================
+UVVM:      >> Simulation SUCCESS: No mismatch between counted and expected serious alerts
+UVVM:      ====================================================================================================================================================================
+UVVM:      
+UVVM:      
+UVVM: 
+UVVM: 
+UVVM: ID_LOG_HDR                      3432.5 ns  TB seq.                        SIMULATION COMPLETED
+UVVM: -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
