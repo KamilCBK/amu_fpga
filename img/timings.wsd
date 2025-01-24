@@ -1,0 +1,93 @@
+' logika kombinacyjna
+@startuml
+clock "Clk" as clk with period 10
+binary "A" as A
+binary "B" as B
+binary "Y = A xor B" as Y
+
+@A
+0 is low
++4 is high
++7 is low
++10 is high
+
+@B
+0 is low
++7 is high
++2 is low
++4 is high
++4 is low
++4 is high
+
+@Y
+0 is low
++4 is high
++3 is low
++2 is high
++2 is low
++2 is high
++4 is low
++4 is low
+
+@enduml
+
+' logika kombinacyjna + sekwencyjna
+@startuml
+clock "Clk" as clk with period 5
+binary "A" as A
+binary "Q" as B
+binary "Y = A xor B" as Y
+binary "DFF Q(Y)" as Q
+
+@A
+0 is low
++4 is high
++7 is low
++10 is high
+
+@B
+0 is low
++7 is high
++2 is low
++4 is high
++4 is low
++4 is high
+
+@Y
+0 is low
++4 is high
++3 is low
++2 is high
++2 is low
++2 is high
++4 is low
++4 is low
+
+@Q
+0 is low
++10 is high
++10 is low
+
+@enduml
+
+' setup/hold
+@startuml
+clock "Clk" as clk with period 10
+binary "IN" as IN
+binary "OUT" as OUT
+
+@IN
+0 is low
++3 is high
++4 is low
+IN@4 <-> @5 : {t_setup}
+IN@5 <-> @6 : {t_hold}
+
+
+@OUT
+0 is low
++5.2 is high
+
+highlight 4 to 6 : 
+
+@enduml

@@ -15,7 +15,7 @@ Example, for 100MHz clock (10ns period), when prescaler (whatever the exact enco
 is equal to 100, the effective resolution of timer is 1000ns 
 
 REQ-02:
-- 32bit timer output in incremental mode
+- 32bit timer output in decremental mode
 
 REQ-03:
 - start from zero on overflow
