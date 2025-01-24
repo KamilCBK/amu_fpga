@@ -471,7 +471,7 @@ begin
             b => b2,
             y => y2
         );
-end structure;
+end component1;
 ```
 
 W przykładzie wyżej, `and_gate` to nazwa komponentu (entity) umieszczanego w naszej architekturze. Instancjonowany moduł musi być widoczny w architekturze. Deklaracja komponentu musi zostac umieszczona we wczytanym pakiecie lub w architekturze.
@@ -497,7 +497,7 @@ begin
             b => b1,
             y => y1
         );
-end structure;
+end component1;
 ```
 
 # VHDL - Przykłady 
@@ -596,7 +596,7 @@ ENTITY reg16 IS
         i_int       : IN  std_logic_vector(15 downto 0);
         o_out       : OUT std_logic_vector(15 downto 0)
     );
-END cnt;
+END reg16;
 
 ARCHITECTURE behavioral OF reg16 IS
 BEGIN
@@ -746,3 +746,4 @@ Powyższy opis to jedynie wprowadzenie. Dodatkowe materiały dostepne w sieci:
 https://valhalla.altium.com/Learning-Guides/TR0114%20VHDL%20Language%20Reference.pdf
 
 https://ics.uci.edu/~jmoorkan/vhdlref/
+
